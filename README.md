@@ -16,3 +16,6 @@ In this project, we will implement the FCN with VGG-16 as our base model. Our go
 [6] https://arxiv.org/pdf/1503.02351
 [7] https://arxiv.org/pdf/1412.7062.pdf
 [8] https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf
+
+
+This Project was done by: Eslam Zaher & Farouk Mokhtar, at Zewail City of Science and Technology.
