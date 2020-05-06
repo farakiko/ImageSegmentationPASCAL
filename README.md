@@ -1,5 +1,4 @@
 # ImageSegmentationPASCAL
-Image segmentation is a key problem in the field of computer vision with applications such as scene understanding, medical imaging, robot perception, image compression, augmented reality, and many others. Recently, deep learning has been proven success in a wide range of vision applications. In this project, we investigate the use of a fully convolutional network to solve over one of the most popular datasets used for semantic segmentation. The fully convolutional network under investigation is considered the state-of-the-art in image semantic segmentation.
 
 The main goal of this work is to recognize objects from a number of visual object classes through the generation of a visually segmented picture of the input image. It is  a supervised learning learning problem in that a training set of labelled images is provided. The twenty object classes that have been selected are:
 - Person: person
@@ -10,17 +9,16 @@ The main goal of this work is to recognize objects from a number of visual objec
 In total, we have 21 classes including the background null class.
 
 Simply put, our goal is to take an RGB color image (height×width×3) and output a segmentation map (height×width×1) where each pixel contains a class label represented as an integer. The following is a nice illustration of a segmentation problem:
-![GitHub Logo](/images/logo.png)
+![Alt Text](https://drive.google.com/uc?id=1e9LTrcD1kS9pPHAu_EKzgVHXUz9A-uPn)
+
+
 
 
 ## Dataset:
 We will use the PASCAL VOC 2012 dataset for the segmentation task. The dataset is used for five different competitions: classification, detection, segmentation, action classification, and person layout. The images are ground-truth annotated and the dataset has 21 classes categorized into vehicles, household, animals, and others. This dataset is arguably one of most popular datasets for semantic segmentation and is divided into a training set of 1464 images, a validation set of 1449, and a testset.
 
-## Objectives:
+## Our Model:
 In this project, we will implement the FCN with VGG-16 as our base model. Our goal is to get adequate results compared to the results by Long et al, so we will set our baseline pixel accuracy to 83% (for the FCN-32s fixed). Transfer learning and fine-tuning will be considered in this task. In case the baseline wasn’t reached, we will implement the skip connection architecture and use different decoder pixel strides to enhance the results.
-
-
-
 
 ## References:
 [1] https://arxiv.org/pdf/2001.05566.pdf
