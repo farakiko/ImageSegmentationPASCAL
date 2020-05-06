@@ -9,9 +9,8 @@ The main goal of this work is to recognize objects from a number of visual objec
 In total, we have 21 classes including the background null class.
 
 Simply put, our goal is to take an RGB color image (height×width×3) and output a segmentation map (height×width×1) where each pixel contains a class label represented as an integer. The following is a nice illustration of a segmentation problem:
-![Example](images/Example.png = 50x50)
 
-
+![An image](images/Example.png) <!-- .element height="50%" width="50%" -->
 
 
 ## Dataset:
