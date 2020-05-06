@@ -10,8 +10,9 @@ In total, we have 21 classes including the background null class.
 
 Simply put, our goal is to take an RGB color image (height×width×3) and output a segmentation map (height×width×1) where each pixel contains a class label represented as an integer. The following is a nice illustration of a segmentation problem:
 
-![An image](images/Example.png) <!-- .element height="50%" width="50%" -->
 
+<img src="
+https://github.com/faroukmokhtar/ImageSegmentationPASCAL/blob/master/images/Example.png" height="24">
 
 ## Dataset:
 We will use the PASCAL VOC 2012 dataset for the segmentation task. The dataset is used for five different competitions: classification, detection, segmentation, action classification, and person layout. The images are ground-truth annotated and the dataset has 21 classes categorized into vehicles, household, animals, and others. This dataset is arguably one of most popular datasets for semantic segmentation and is divided into a training set of 1464 images, a validation set of 1449, and a testset.
