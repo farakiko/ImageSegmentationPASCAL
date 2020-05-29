@@ -22,21 +22,14 @@ title = "The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2012 {(VOC2012)} {
 howpublished = "http://www.pascal-network.org/challenges/VOC/voc2012/workshop/index.html"}
 
 ## Our Model:
-In this project, we will implement the FCN with VGG-16 as our base model. Our goal is to get adequate results compared to the results by Long et al, so we will set our baseline pixel accuracy to 83% (for the FCN-32s fixed). Transfer learning and fine-tuning will be considered in this task. In case the baseline wasn’t reached, we will implement the skip connection architecture and use different decoder pixel strides to enhance the results.
+In this project, we will implement the FCN with VGG-16 as our base model. Our goal is to get adequate results compared to the results by Long et al., so we will set our baseline pixel accuracy to 83% (for the FCN-32s fixed). Transfer learning and fine-tuning will be considered in this task. In case the baseline wasn’t reached, we will implement the skip connection architecture and use different decoder pixel strides to enhance the results.
 
 ## Results:
-We achieve a validation accuracy of 80%, which is comparable to the 83% validation accuracy achieved by Long et. al[8] given our resources.
+We achieve a validation accuracy of 80%, which is comparable to the 83% validation accuracy achieved by Long et al.[1] given our resources.
 
 ## References:
-[1] https://arxiv.org/pdf/2001.05566.pdf
-[2] Nameirakpam Dhanachandra et al “Image Segmentation Using K -means Clustering Algorithm and Subtractive Clustering Algorithm”
-[3] Z. Huang and D. Liu, "Segmentation of Color Image Using EM algorithm in HSV Color Space," 2007 International Conference on Information Acquisition, Seogwipo-si, 2007, pp. 316-319.
-[4] https://arxiv.org/abs/2001.05566
-[5] https://arxiv.org/abs/1703.06870
-[6] https://arxiv.org/pdf/1503.02351
-[7] https://arxiv.org/pdf/1412.7062.pdf
-[8] Long at al. “Fully Convolutional Networks for Semantic Segmentation”
-
+[1] Long et al. “Fully Convolutional Networks for Semantic Segmentation”. Avaliable at: https://arxiv.org/pdf/1411.4038.pdf
+[2] https://arxiv.org/pdf/2001.05566.pdf
 
 
 __This Project was done by: Eslam Zaher & Farouk Mokhtar, at Zewail City of Science and Technology.__
