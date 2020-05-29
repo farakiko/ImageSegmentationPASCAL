@@ -24,6 +24,9 @@ howpublished = "http://www.pascal-network.org/challenges/VOC/voc2012/workshop/in
 ## Our Model:
 In this project, we will implement the FCN with VGG-16 as our base model. Our goal is to get adequate results compared to the results by Long et al, so we will set our baseline pixel accuracy to 83% (for the FCN-32s fixed). Transfer learning and fine-tuning will be considered in this task. In case the baseline wasn’t reached, we will implement the skip connection architecture and use different decoder pixel strides to enhance the results.
 
+## Results:
+We achieve a validation accuracy of 80%, which is comparable to the 83% validation accuracy achieved by Long et. al[8] given our resources.
+
 ## References:
 [1] https://arxiv.org/pdf/2001.05566.pdf
 [2] Nameirakpam Dhanachandra et al “Image Segmentation Using K -means Clustering Algorithm and Subtractive Clustering Algorithm”
@@ -32,7 +35,7 @@ In this project, we will implement the FCN with VGG-16 as our base model. Our go
 [5] https://arxiv.org/abs/1703.06870
 [6] https://arxiv.org/pdf/1503.02351
 [7] https://arxiv.org/pdf/1412.7062.pdf
-[8] https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf
+[8] Long at al. “Fully Convolutional Networks for Semantic Segmentation”
 
 
 
