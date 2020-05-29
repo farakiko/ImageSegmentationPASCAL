@@ -29,6 +29,7 @@ We achieve a validation accuracy of 80%, which is comparable to the 83% validati
 
 ## References:
 [1] Long et al. “Fully Convolutional Networks for Semantic Segmentation”. Avaliable at: https://arxiv.org/pdf/1411.4038.pdf
+
 [2] https://arxiv.org/pdf/2001.05566.pdf
 
 
